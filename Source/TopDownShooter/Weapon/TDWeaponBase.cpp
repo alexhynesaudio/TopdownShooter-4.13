@@ -464,7 +464,7 @@ void ATDWeaponBase::FirePrimary()
 	if (MuzzleFX)
 	{
 		//USkeletalMeshComponent* UseWeaponMesh = GetWeaponMesh();
-
+		// Sample Comment
 		// if looped fx spawn only if no particle system exists
 		if (!bLoopedMuzzleFX || MuzzlePSC == nullptr)
 		{
