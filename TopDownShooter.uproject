@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{3934DC12-4401-70F3-9177-6E88DC297F5D}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "TopDownShooter",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"AIModule",
+				"CoreUObject"
+			]
+		},
+		{
+			"Name": "TDLoadingScreen",
+			"Type": "Runtime",
+			"LoadingPhase": "PreLoadingScreen"
+		}
+	]
+}
